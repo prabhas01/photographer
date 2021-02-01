@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Typenote — W3.CSS: Web Designer</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Typenote — W3.CSS: Web Designer">
+  <meta name="keywords"    content="typenote, w3css, templates, gourment, catering">
+  <meta name="author"      content="Gurov Dmitriy">
+  <meta name="robots"      content="noindex, follow">
+
+  <link rel="preload" href="font/woff2/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="font/woff2/Montserrat-Bold.woff2"    as="font" type="font/woff2" crossorigin>
+
+  <link rel="preload" href="https://www.w3schools.com/w3css/4/w3.css"         as="style">
+  <link rel="preload" href="css/style.css"                                    as="style">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+
+  <script>document.createElement("picture");</script>
+
+  <script src="js/webp.js"        async></script>
+  <script src="js/picturefill.js" async></script>
+  <!--   <script src="js/lazysizes.js"   async></script> -->
+
+</head>
+
+<body class="w3-black w3css-web-designer">
+
+  <header>
+
+    <h1 class="visually-hidden">I'm John Doe.</h1>
+
+    <button class="usr-burger" type="button"><span class="visually-hidden">Menu</span></button>
+
+    <nav class="w3-sidebar w3-bar-block w3-center usr-menu usr-hidden w3-animate-left">
+      <h2 class="visually-hidden">Navigation</h2>
+      <a class="skip-link" href="#main">Skip to main</a>
+      <picture>
+        <source type="image/webp"
+                srcset="image/avatar_smoke.webp">
+
+        <img class="w3-image" src="image/avatar_smoke.jpg" width="200" height="223" alt="man smoke">
+      </picture>
+      <a class="w3-bar-item w3-button w3-hover-black w3-padding-large" href="#home"><span class="fa fa-home w3-xxlarge"></span> <p class="w3-text-white">Home</p></a>
+      <a class="w3-bar-item w3-button w3-hover-black w3-padding-large" href="#about"><span class="fa fa-user w3-xxlarge"></span> <p class="w3-text-white">About</p></a>
+      <a class="w3-bar-item w3-button w3-hover-black w3-padding-large" href="#photos"><span class="fa fa-eye w3-xxlarge"></span> <p class="w3-text-white">Photos</p></a>
+      <a class="w3-bar-item w3-button w3-hover-black w3-padding-large" href="#contact"><span class="fa fa-envelope w3-xxlarge"></span> <p class="w3-text-white">Contact</p></a>
+    </nav>
+
+    <div class="w3-overlay w3-animate-opacity"></div>
+
+  </header>
+
+  <main id="main">
+
+    <section class="w3-content w3-container w3-center w3-padding-64" id="home">
+      <h2 class="visually-hidden">About</h2>
+      <p class="w3-jumbo w3-text-white" tabindex="0">I'm John Doe.</p>
+      <p class="w3-text-white">Photographer .</p>
+
+      <picture>
+        <source type="image/webp"
+                srcset="image/man_smoke.webp">
+
+        <img class="w3-image" src="image/man_smoke.jpg" width="992" height="1108" alt="man smoke">
+      </picture>
+    </section>
+
+    <section class="w3-content w3-container w3-padding-16" id="about">
+      <h2 tabindex="0">My name</h2>
+      <hr class="w3-opacity">
+      <p>Boots on the ground efficient cultivate B-corp improve the world accessibility. Movements catalyze; inspire, milestones thought partnership impact unprecedented challenge human-centered mobilize. Gender rights relief; paradigm, issue outcomes sustainable problem-solvers. Strengthening infrastructure program area indicators radical disrupt milestones triple bottom line relief systems thinking. Benefit corporation outcomes, initiative social capital.</p>
+    </section>
+
+    <section class="w3-content w3-container w3-padding-16">
+      <h2 class="w3-xlarge" tabindex="0">My Skills</h2>
+
+      <p class="w3-wide"><label for="photography">Photography</label></p>
+      <progress class="visually-hidden" id="photography" value="90" max="100"></progress>
+      <div class="w3-white usr-bar">
+        <div class="w3-grey"></div>
+      </div>
+
+      <p class="w3-wide"><label for="webdesign">Web Design</label></p>
+      <progress class="visually-hidden" id="webdesign" value="80" max="100"></progress>
+      <div class="w3-white usr-bar">
+        <div class="w3-grey"></div>
+      </div>
+
+      <p class="w3-wide"><label for="photoshop">Photoshop</label></p>
+      <progress class="visually-hidden" id="photoshop" value="70" max="100"></progress>
+      <div class="w3-white usr-bar">
+        <div class="w3-grey"></div>
+      </div>
+
+      <div class="w3-row w3-center w3-padding-32">
+        <div class="w3-col m3 w3-white">
+          <p class="w3-xlarge">11+</p>
+          <p>Partners</p>
+        </div>
+        <div class="w3-col m3 w3-white">
+          <p class="w3-xlarge">55+</p>
+          <p>Projects done</p>
+        </div>
+        <div class="w3-col m3 w3-white">
+          <p class="w3-xlarge">89+</p>
+          <p>Happy clients</p>
+        </div>
+        <div class="w3-col m3 w3-white">
+          <p class="w3-xlarge">150+</p>
+          <p>Meetings</p>
+        </div>
+      </div>
+
+      <button class="w3-button w3-mobile w3-padding-large w3-light-grey" type="button"><span class="fa fa-download"></span> Download resume</button>
+    </section>
+
+    <section class="w3-content w3-padding-16 usr-price">
+      <div class="w3-container">
+        <h2 class="w3-xlarge" tabindex="0">My prise</h2>
+      </div>
+
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col l6 w3-margin-bottom w3-opacity w3-hover-opacity-off">
+          <div class="w3-padding-32 w3-grey">
+            <h3 tabindex="0">Basic</h3>
+          </div>
+          <ul class="w3-ul w3-white">
+            <li class="w3-padding-16">Web Design</li>
+            <li class="w3-padding-16">Photography</li>
+            <li class="w3-padding-16">5GB Storage</li>
+            <li class="w3-padding-16">Mail Support</li>
+          </ul>
+          <div class="w3-container w3-white">
+            <p><span class="w3-xxlarge">&#36;10</span> <span class="w3-block">per month</span></p>
+          </div>
+          <div class="w3-container w3-padding-32 w3-grey">
+            <button class="w3-button w3-black" type="button">Sign up</button>
+          </div>
+        </div>
+        <div class="w3-col l6 w3-margin-bottom w3-opacity w3-hover-opacity-off">
+          <div class="w3-padding-32 w3-grey">
+            <h3 tabindex="0">Pro</h3>
+          </div>
+          <ul class="w3-ul w3-white">
+            <li class="w3-padding-16">Web Design</li>
+            <li class="w3-padding-16">Photography</li>
+            <li class="w3-padding-16">5GB Storage</li>
+            <li class="w3-padding-16">Mail Support</li>
+          </ul>
+          <div class="w3-container w3-white">
+            <p><span class="w3-xxlarge">&#36;25</span> <span class="w3-block">per month</span></p>
+          </div>
+          <div class="w3-container w3-padding-32 w3-grey">
+            <button class="w3-button w3-black" type="button">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w3-content w3-padding-16">
+      <div class="w3-container">
+        <h2 class="w3-xlarge" tabindex="0">My reputation</h2>
+      </div>
+      <ul class="w3-ul usr-review">
+        <li>
+          <picture>
+            <source type="image/webp"
+                    srcset="image/bandmember.webp">
+
+            <img class="w3-image w3-circle w3-left w3-margin-right" src="image/bandmember.jpg" width="255" height="255" loading="lazy" alt="avatar review">
+          </picture>
+          <p>Chris Fox. CEO at Mighty Schools.</p>
+          <p>John Doe saved us from a web disaster.</p>
+        </li>
+        <li>
+          <picture>
+            <source type="image/webp"
+                    srcset="image/bandmember.webp">
+
+            <img class="w3-image w3-circle w3-left w3-margin-right" src="image/bandmember.jpg" width="255" height="255" loading="lazy" alt="avatar review">
+          </picture>
+          <p>Chris Fox. CEO at Mighty Schools.</p>
+          <p>John Doe saved us from a web disaster.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="w3-content w3-padding-16" id="photos">
+      <div class="w3-container">
+        <h2 tabindex="0">My photos</h2>
+        <hr class="w3-opacity">
+      </div>
+
+      <div class="w3-row-padding usr-gallery">
+
+        <a class="skip-link" href="#contact">skip gallery</a>
+
+        <div class="w3-overlay w3-animate-opacity usr-gallery__overlay usr-gallery__overlay--hidden"></div>
+
+        <div class="w3-col m6">
+          <picture>
+            <source type="image/webp"
+                    srcset="image/wedding.webp">
+
+            <img class="w3-image w3-margin-bottom" src="image/wedding.jpg" width="800" height="500" loading="lazy" tabindex="0" alt="wedding">
+          </picture>
+          <picture>
+            <source type="image/webp"
+                    srcset="image/rocks.webp">
+
+            <img class="w3-image w3-margin-bottom" src="image/rocks.jpg" width="500" height="850" loading="lazy" tabindex="0" alt="rocks">
+          </picture>
+          <picture>
+            <source type="image/webp"
+                    srcset="image/sailboat.webp">
+
+            <img class="w3-image w3-margin-bottom" src="image/sailboat.jpg" width="2500" height="1665" loading="lazy" tabindex="0" alt="sailboat">
+          </picture>
+        </div>
+
+        <div class="w3-col m6">
+          <picture>
+            <source type="image/webp"
+                    srcset="image/underwater.webp">
+
+            <img class="w3-image w3-margin-bottom" src="image/underwater.jpg" width="800" height="800" loading="lazy" tabindex="0" alt="underwater">
+          </picture>
+          <picture>
+            <source type="image/webp"
+                    srcset="image/chef.webp">
+
+            <img class="w3-image w3-margin-bottom" src="image/chef.jpg" width="0" height="0" loading="lazy" tabindex="0" alt="chef">
+          </picture>
+          <picture>
+            <source type="image/webp"
+                    srcset="image/wedding.webp">
+
+            <img class="w3-image w3-margin-bottom" src="image/wedding.jpg" width="800" height="500" loading="lazy" tabindex="0" alt="wedding">
+          </picture>
+          <picture>
+            <source type="image/webp"
+                    srcset="image/p6.webp">
+
+            <img class="w3-image w3-margin-bottom" src="image/p6.jpg" width="400" height="300" loading="lazy" tabindex="0" alt="typewriter">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="w3-content w3-padding-16" id="contact">
+      <div class="w3-container">
+        <h2 tabindex="0">Contact Me</h2>
+        <hr class="w3-opacity">
+        <address class="w3-text-grey"><span class="fa fa-map-marker fa-fw w3-margin-right w3-text-white w3-xxlarge"></span>Chicago, US</address>
+        <p><a href="tel:+00151515"><span class="fa fa-phone fa-fw w3-margin-right w3-text-white w3-xxlarge"></span> +00 151515</a></p>
+        <p><a href="mailto:mail@mail.gmail.com"><span class="fa fa-envelope fa-fw w3-margin-right w3-text-white w3-xxlarge"></span> mail@mail.gmail.com</a></p>
+      </div>
+
+      <form class="w3-container w3-padding-32" action="#" method="post">
+        <p>Let's get in touch. Send me a message:</p>
+        <div class="w3-section">
+          <label class="visually-hidden" for="name">Name</label>
+          <input class="w3-input w3-padding-16" id="name" type="text" name="name" required placeholder="Name">
+        </div>
+        <div class="w3-section">
+          <label class="visually-hidden" for="email">Email</label>
+          <input class="w3-input w3-padding-16" id="email" type="email" name="email" required placeholder="Email">
+        </div>
+        <div class="w3-section">
+          <label class="visually-hidden" for="subject">Subject</label>
+          <input class="w3-input w3-padding-16" id="subject" type="text" name="subject" required placeholder="Subject">
+        </div>
+        <div class="w3-section">
+          <label class="visually-hidden" for="message">Message</label>
+          <textarea class="w3-input w3-padding-16" id="message" name="message" rows="1" required placeholder="Message"></textarea>
+        </div>
+        <div class="w3-section">
+          <button class="w3-button w3-mobile w3-white w3-padding-16" type="submit"><span class="fa fa-paper-plane w3-margin-right"></span> Send message</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="w3-content w3-container w3-center w3-padding-16">
+      <h2 class="visually-hidden">Social</h2>
+      <div class="w3-xlarge">
+        <a class="w3-text-grey w3-hover-opacity w3-margin-right" href="#"><span class="visually-hidden">Facebook</span><span class="fa fa-facebook-official"></span></a>
+        <a class="w3-text-grey w3-hover-opacity w3-margin-right" href="#"><span class="visually-hidden">Instagram</span><span class="fa fa-instagram"></span></a>
+        <a class="w3-text-grey w3-hover-opacity w3-margin-right" href="#"><span class="visually-hidden">snap chat</span><span class="fa fa-snapchat"></span></a>
+        <a class="w3-text-grey w3-hover-opacity w3-margin-right" href="#"><span class="visually-hidden">twitter</span><span class="fa fa-twitter"></span></a>
+        <a class="w3-text-grey w3-hover-opacity w3-margin-right" href="#"><span class="visually-hidden">Pinterest</span><span class="fa fa-pinterest-p"></span></a>
+        <a class="w3-text-grey w3-hover-opacity w3-margin-right" href="#"><span class="visually-hidden">linkeding</span><span class="fa fa-linkedin"></span></a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="w3-padding-32 w3-center w3-black">
+
+    <div class="w3-content">
+      <h2 class="visually-hidden">Contacts</h2>
+
+      <p>Go to <a href="index.html">Main</a></p>
+
+      <p>Create by <a href="https://www.typenote.io">Typenote</a></p>
+
+      <p>Powered by <a href="https://www.w3schools.com/w3css/">W3.CSS</a></p>
+    </div>
+
+  </footer>
+
+  <script src="js/webdesigner.js"   async></script>
+  <script src="js/focus-visible.js" async></script>
+
+</body>
+</html>
